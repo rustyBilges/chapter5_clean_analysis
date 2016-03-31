@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#strad = '_AVERAGE_4000'
-strad = ''
+strad = '_AVERAGE_4000'
+#strad = ''
 
 rows = 3
 cols = 3
@@ -67,7 +67,7 @@ def plot_map(AX, fname, mmin=0,mmax=1, annot='A', xoff=False,yoff=False, xlab='N
 
 
 #fig, axes = plt.subplots(3,3, figsize=(18,18))  
-fig, axes = plt.subplots(3,3, figsize=(15,18))  
+fig, axes = plt.subplots(3,3, figsize=(22,18))  
 AX = axes.flatten()
 
 plot_map(AX[0], 'ext_map_mai_0'+strad+'.csv', mmax=30, xoff=True, row_lab = 'MAI = 0.0', col_lab='Extinctions', ylab='immigration', annot='A')
@@ -88,7 +88,7 @@ plot_map(AX[8], 'div_map_mai_1.0'+strad+'.csv', mmax=1, xlab='habitat loss', yof
 #plt.subplots_adjust(wspace=0.3, left=0.3)
 plt.subplots_adjust(wspace=0.3, left=0.16)
 plt.savefig("heatmap1"+strad+".png")
-plt.show()
+#plt.show()
 
 
 if False:

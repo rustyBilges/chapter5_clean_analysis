@@ -93,7 +93,7 @@ plot_map(AX[8], 'pop_inv_map_mai_1.0'+strad+'.csv', mmax=10, xlab='habitat loss'
 
 #plt.subplots_adjust(wspace=0.3, left=0.3)
 plt.subplots_adjust(wspace=0.3, left=0.16)
-plt.savefig("heatmap3"+strad+".png")
+plt.savefig("heatmap_inv"+strad+".png")
 plt.show()
 
 
