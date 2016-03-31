@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#strad = '_AVERAGE_4000'
-strad = ''
+strad = '_AVERAGE_4000'
+#strad = ''
 
 rows = 3
 cols = 3
@@ -69,7 +69,7 @@ def plot_map(AX, fname, mmin=0,mmax=1, annot='A', xoff=False,yoff=False, xlab='N
 
 
 #fig, axes = plt.subplots(3,3, figsize=(18,18))  
-fig, axes = plt.subplots(3,3, figsize=(15,18))  
+fig, axes = plt.subplots(3,3, figsize=(22,18))  
 AX = axes.flatten()
 
 #plot_map(AX[0], 'min_inv_map_mai_0'+strad+'.csv', mmax=5, mmin=-9, xoff=True, row_lab = 'MAI = 0.0', col_lab='min inv', ylab='immigration', annot='A', log=True)
