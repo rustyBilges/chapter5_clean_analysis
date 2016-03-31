@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-strad = '_AVERAGE_4000'
-#strad = ''
+#strad = '_AVERAGE_4000'
+strad = ''
 
 rows = 3
 cols = 3
